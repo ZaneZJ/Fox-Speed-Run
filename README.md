@@ -21,4 +21,5 @@ and called [fox.db](fox.db). To delete high scores, just delete this file.
 - Obstacle type and distance between them is generated randomly
 - Local high scores using SQLite and sorted with the highest score on top
 - Jump with SPACEBAR, and hold it to increase the jump height
+- Fox tail can touch obstacles
 - Animated fox which becomes sad when you lose

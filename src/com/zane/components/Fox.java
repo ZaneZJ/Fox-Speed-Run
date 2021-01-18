@@ -42,9 +42,11 @@ public class Fox {
 
         runningFoxes = new ArrayList<>();
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-1-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-5-Fox.png"));
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-2-Fox.png"));
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-3-Fox.png"));
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-1-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-5-Fox.png"));
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-2-Fox.png"));
         runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-3-Fox.png"));
 

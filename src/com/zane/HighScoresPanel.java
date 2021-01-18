@@ -25,21 +25,21 @@ public class HighScoresPanel extends JPanel {
         this.mainMenuButtonAction = mainMenuButtonAction;
         
         setLayout(null);
-        addTitle();
+        // addTitle();
         addScrollableList();
         addButtons();
     }
 
     // top line maybe change
-    private void addTitle() {
-        JLabel title = new JLabel("High scores");
-        title.setFont(title.getFont().deriveFont(30f));
-        title.setBounds(UserInterface.WIDTH / 2 - LIST_WIDTH / 2,
-                UserInterface.HEIGHT / 2 - LIST_HEIGHT / 2 - 100,
-                LIST_WIDTH,
-                100);
-        add(title);
-    }
+//    private void addTitle() {
+//        JLabel title = new JLabel("High scores");
+//        title.setFont(title.getFont().deriveFont(30f));
+//        title.setBounds(UserInterface.WIDTH / 2 - LIST_WIDTH / 2,
+//                UserInterface.HEIGHT / 2 - LIST_HEIGHT / 2 - 100,
+//                LIST_WIDTH,
+//                100);
+//        add(title);
+//    }
 
     private void addScrollableList() {
         list = new JList();
