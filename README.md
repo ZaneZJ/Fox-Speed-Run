@@ -14,7 +14,7 @@ and called [fox.db](fox.db). To delete high scores, just delete this file.
 
 ## Demo
 
-![Demo](https://i.giphy.com/L2vQWz4ZkWfQpMjFh3.gif)
+![Demo](https://media4.giphy.com/media/kvUO1rfwxWLKYDFILG/giphy.gif)
 
 ## Features
 - The game becomes faster every 300 points
