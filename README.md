@@ -1,10 +1,13 @@
 # Fox Game
 
-Welcome to the Fox Speed run
+Welcome to the Fox Speed run!
 
-######For running SQLite database from https://www.sqlite.org/download.html I downloaded:
-######sqlite-dll-win64-x64-3340000.zip (814.19 KiB)
-######sqlite-tools-win32-x86-3340000.zip (1.76 MiB)
-######
-######JDBC Driver I downloaded from:
-######https://github.com/xerial/sqlite-jdbc
+## How to run
+
+1. Install dependencies and build the jar by running `mvn clean install`
+1. Execute the jar by running `java -jar ./target/speed-run-1.0.jar`
+
+## High scores
+
+High scores are stored in a local SQLite database, which is automatically created in the working directory
+and called [fox.db](fox.db). To delete high scores, just delete this file.

@@ -1,20 +1,26 @@
-import utility.Resource;
+package com.zane;
+
+import com.zane.utility.Resource;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 
-public class MainMenu extends JPanel {
+public class MainMenuPanel extends JPanel {
     JTextField nameTextField;
     JButton playButton;
     JButton highScoresButton;
 
-    public MainMenu(ActionListener playButtonAction, ActionListener highScoresButtonAction) {
+    public MainMenuPanel(ActionListener playButtonAction, ActionListener highScoresButtonAction) {
         setLayout(null);
         addNameTextField();
         addPlayButton(playButtonAction);
         addHighScoresButton(highScoresButtonAction);
+    }
+
+    public String getPlayerName() {
+        return nameTextField.getText();
     }
 
     private void addNameTextField() {
@@ -44,7 +50,7 @@ public class MainMenu extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        BufferedImage image = new Resource().getResourceImage("/Resources/images/Main/Main-Screen.png");
+        BufferedImage image = new Resource().getResourceImage("/images/Main/Main-Screen.png");
         g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
     }
 }

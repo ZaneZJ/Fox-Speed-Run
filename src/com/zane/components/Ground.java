@@ -1,11 +1,4 @@
-package components;
-
-import utility.Resource;
-
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Iterator;
+package com.zane.components;
 
 public class Ground extends Background {
 

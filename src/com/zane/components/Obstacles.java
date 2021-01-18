@@ -1,6 +1,6 @@
-package components;
+package com.zane.components;
 
-import utility.Resource;
+import com.zane.utility.Resource;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -64,9 +64,9 @@ public class Obstacles {
         firstX = firstPos;
         movementSpeed = speed;
 
-        imageList.add(new Resource().getResourceImage("/Resources/images/Obstacles/Basic-Obstacle.png"));
-        imageList.add(new Resource().getResourceImage("/Resources/images/Obstacles/Tall-Obstacle.png"));
-        imageList.add(new Resource().getResourceImage("/Resources/images/Obstacles/Wide-Obstacle.png"));
+        imageList.add(new Resource().getResourceImage("/images/Obstacles/Basic-Obstacle.png"));
+        imageList.add(new Resource().getResourceImage("/images/Obstacles/Tall-Obstacle.png"));
+        imageList.add(new Resource().getResourceImage("/images/Obstacles/Wide-Obstacle.png"));
 
         int x = firstX;
         int obstaclesToRender = 5;
@@ -110,7 +110,6 @@ public class Obstacles {
     public boolean hasCollided() {
         for (Obstacle ob : obList) {
             if (fox.getFox().intersects(ob.getObstacle())) {
-                System.out.println("Fox = " + fox.getFox() + "\nObstacle = " + ob.getObstacle() + "\n\n");
                 return true;
             }
         }

@@ -1,6 +1,6 @@
-package components;
+package com.zane.components;
 
-import utility.Resource;
+import com.zane.utility.Resource;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

@@ -1,4 +1,4 @@
-package components;
+package com.zane.components;
 
 public class SpeedLevel {
     private static final int INCREASE_SPEED_LEVEL_EVERY = 300;

@@ -1,6 +1,6 @@
-package components;
+package com.zane.components;
 
-import utility.Resource;
+import com.zane.utility.Resource;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -36,17 +36,17 @@ public class Fox {
     ArrayList<BufferedImage> runningFoxes;
 
     public Fox() {
-        standingFox = new Resource().getResourceImage("/Resources/images/Fox/1-1-Fox.png");
-        lostFox = new Resource().getResourceImage("/Resources/images/Fox/Lost-Fox.png");
-        jumpingFox = new Resource().getResourceImage("/Resources/images/Fox/Jumping-Fox.png");
+        standingFox = new Resource().getResourceImage("/images/Fox/1-1-Fox.png");
+        lostFox = new Resource().getResourceImage("/images/Fox/Lost-Fox.png");
+        jumpingFox = new Resource().getResourceImage("/images/Fox/Jumping-Fox.png");
 
         runningFoxes = new ArrayList<>();
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/1-1-Fox.png"));
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/1-2-Fox.png"));
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/1-3-Fox.png"));
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/2-1-Fox.png"));
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/2-2-Fox.png"));
-        runningFoxes.add(new Resource().getResourceImage("/Resources/images/Fox/2-3-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-1-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-2-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/1-3-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-1-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-2-Fox.png"));
+        runningFoxes.add(new Resource().getResourceImage("/images/Fox/2-3-Fox.png"));
 
         offsetX = 60;
         offsetY = 40;
