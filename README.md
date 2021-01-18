@@ -1,6 +1,6 @@
 # Fox Game
 
-Welcome to the Fox Speed run!
+Welcome to the Fox Speed run! A simple Java game created using Swing.
 
 ## How to run
 
@@ -11,3 +11,14 @@ Welcome to the Fox Speed run!
 
 High scores are stored in a local SQLite database, which is automatically created in the working directory
 and called [fox.db](fox.db). To delete high scores, just delete this file.
+
+## Demo
+
+![Demo](https://i.giphy.com/L2vQWz4ZkWfQpMjFh3.gif)
+
+## Features
+- The game becomes faster every 300 points
+- Obstacle type and distance between them is generated randomly
+- Local high scores using SQLite and sorted with the highest score on top
+- Jump with SPACEBAR, and hold it to increase the jump height
+- Animated fox which becomes sad when you lose
